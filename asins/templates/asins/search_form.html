@@ -1,0 +1,22 @@
+{% extends 'asins/layout.html' %}
+{% block content %}
+    <!-- <form action="/asins/search/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search"> -->
+    <div class="row" >
+      <form class="col s12" action="/asins/search/" method="get">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="input_text" type="text" name="q" data-length="10">
+            <label for="input_text">ASIN</label>
+          </div>
+          <div class="input-field col s6">
+            <button class="btn waves-effect waves-light" type="submit" name="action" value="Search">Submit
+                <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- </form> -->
+{% endblock content %}
