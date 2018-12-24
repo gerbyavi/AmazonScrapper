@@ -83,7 +83,7 @@ DATABASES = {
         #'NAME': os.path.join(BASE_DIR, 'db.mysql'),
         'NAME': 'Amazon',
         'USER': 'root',
-        'PASSWORD': 'nomore123',
+        'PASSWORD': 'ttttt',
         'HOST': 'localhost',
         'PORT': ''
     }
